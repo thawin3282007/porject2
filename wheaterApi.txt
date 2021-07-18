@@ -1,0 +1,3 @@
+api.openweathermap.org/data/2.5/weather?lat=51.765&lon=14.319&appid=d19299bf9b8f6bfcbec8424ced1f718d
+
+https://openweathermap.org/api

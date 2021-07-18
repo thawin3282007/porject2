@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hallo</title>
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""
+     />
+
+     <script
+     src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+     integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+     crossorigin=""
+     ></script>
+
+     <style>
+        #mymap {
+          height: 180px;
+        }
+      </style>
+
+</head>
+<body>
+
+    <h1>Data selfie app</h1>    
+    <div>
+        <a href="/">Enter</a> | <a href="/logs">List</a></div>
+    </div>
+    <p>
+      The weather here at latitud <span id="latitude"></span>&deg;, and longtitude <span id="longitude"></span>&deg; is <strong><span id="summary"></span></strong> with the temperature of <span id="temperature"></span> &deg; Celsius with PM2.5 of <span id="PM2.5"></span> <span id="unit"></span>
+    </p>
+    <button id="submit">submit</button>
+    <script src="main.js"></script>
+
+
+
+    
+</body>
+</html>
